@@ -1,12 +1,7 @@
 "use client";
 
 import { useState, useRef, useCallback, useEffect } from "react";
-import {
-  ChevronLeft,
-  ChevronRight,
-  RefreshCw,
-  Check,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight, RefreshCw, Check } from "lucide-react";
 
 import { Award, TrendingDown, Handshake } from "lucide-react";
 import Link from "next/link";
@@ -14,16 +9,16 @@ import Link from "next/link";
 const cards = [
   {
     id: 0,
-    badge: "20+ Years",
+    badge: "23+ Years",
     title: "Guide from Experience",
     description:
       "With over 20 years in finance, I provide a level of expertise that financially benefits clients and is deeply respected by industry professionals nationwide.",
     icon: Award,
-   gradient: "from-[#006132] via-[#003d1f] to-[#0a8c4e]",
+    gradient: "from-[#006132] via-[#003d1f] to-[#0a8c4e]",
     backBg: "bg-[#003d1f]",
     backTitle: "Why Experience Matters",
     features: [
-      "20+ years in mortgage finance",
+      "23+ Years in mortgage finance",
       "Trusted by industry professionals",
       "Proven track record of client savings",
     ],
@@ -53,9 +48,9 @@ const cards = [
     description:
       "Here is what we say to challenges — 'bring it on.' We work tirelessly to close all loans, and we don't walk away when a client is up against tough circumstances.",
     icon: Handshake,
-     gradient: "from-[#006132] via-[#00a854] to-[#00d68f]",
+    gradient: "from-[#006132] via-[#00a854] to-[#00d68f]",
     backBg: "bg-[#003d1f]",
-    
+
     backTitle: "Our Commitment",
     features: [
       "Close loans others won't touch",
@@ -221,7 +216,8 @@ function Card({
                 onClick={(e) => e.stopPropagation()}
                 className="bg-[#004D22] text-white px-4 py-2 rounded-full flex items-center gap-2 text-sm font-medium hover:scale-105 transition-transform"
               >
-                About me<ChevronRight className="w-4 h-4" />
+                About me
+                <ChevronRight className="w-4 h-4" />
               </Link>
             ) : (
               <button
@@ -334,7 +330,6 @@ export default function CardStack() {
 
   return (
     <>
-     
       <style>{`
         @keyframes floating {
           0%, 100% { transform: translateY(0); }
@@ -352,7 +347,9 @@ export default function CardStack() {
             </h1>
 
             <p className="text-white/80 text-sm">
-The pillars in our brand mark represent our three core commitments to our clients.            </p>
+              The pillars in our brand mark represent our three core commitments
+              to our clients.{" "}
+            </p>
 
             <div className="flex justify-center mt-6 gap-3">
               {cards.map((_, i) => (
@@ -416,8 +413,6 @@ The pillars in our brand mark represent our three core commitments to our client
               <ChevronRight className="w-6 h-6" />
             </button>
           </div>
-
-          
         </div>
       </div>
     </>

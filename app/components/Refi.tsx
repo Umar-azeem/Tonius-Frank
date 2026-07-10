@@ -34,7 +34,7 @@ export default function Refi() {
         </svg>
       </div>
 
-      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+      <div className="mx-auto overflow-hidden grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         {/* Intro block */}
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -60,7 +60,7 @@ export default function Refi() {
         {/* First sticky image */}
         <div className="-mt-12 -ml-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            src="/img/h5.png"
+            src="/img/t5.png"
             alt="Homeowner reviewing refinancing paperwork"
             className="w-3xl max-w-none rounded-xl bg-[#06231A] shadow-xl ring-1 ring-white/10 sm:w-228"
           />
@@ -159,19 +159,19 @@ export default function Refi() {
               <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-3">
                 {[
                   {
-                    src: "/img/ho5.png",
+                    src: "/img/t4.png",
                     alt: "Line chart comparing mortgage rates",
                     label: "Rate-and-Term",
                     sub: "Compare your rate",
                   },
                   {
-                    src: "/img/ho6.png",
+                    src: "/img/t7.png",
                     alt: "Homeowner reviewing renovation plans",
                     label: "Cash-Out",
                     sub: "Access your equity",
                   },
                   {
-                    src: "/img/ho7.png",
+                    src: "/img/t6.png",
                     alt: "Coins stacked beside a savings ledger",
                     label: "Cash-In",
                     sub: "Shrink your balance",
@@ -253,19 +253,19 @@ export default function Refi() {
               </p><div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-3">
                 {[
                   {
-                    src: "/img/ho2.png",
+                    src: "/img/t2.png",
                     alt: "Line chart comparing mortgage rates",
                     label: "Rate-and-Term",
                     sub: "Compare your rate",
                   },
                   {
-                    src: "/img/ho3.png",
+                    src: "/img/t3.png",
                     alt: "Homeowner reviewing renovation plans",
                     label: "Cash-Out",
                     sub: "Access your equity",
                   },
                   {
-                    src: "/img/ho4.png",
+                    src: "/img/t1.png",
                     alt: "Coins stacked beside a savings ledger",
                     label: "Cash-In",
                     sub: "Shrink your balance",

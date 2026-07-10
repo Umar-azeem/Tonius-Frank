@@ -9,20 +9,13 @@ const FooterText = () => {
       <div>
         <hr className="border-gray-700 my-6 sm:my-10" />
         <p>
-          The Tonius Frank Team! Providing Mortgage Services for all of your
-          mortgage financing needs. Looking for reliable mortgage services?
-          Tonius Frank - The Mortgage Disrupters offers Professionalized
-          Mortgage Services to simplify your home financing journey. With our
-          expert guidance and tailored refinancing options, achieving your dream
-          home has never been easier! Connect with us today and discover the
-          path to your future home
+          The Tonius Frank Team! Providing Mortgage Services for all of your mortgage financing needs. Looking for reliable mortgage services? Tonius Frank - The Mortgage Disrupters offers Professionalized Mortgage Services to simplify your home financing journey. With our expert guidance and tailored refinancing options, achieving your dream home has never been easier! Connect with us today and discover the path to your future home
         </p>
 
         <p className="mt-6">For Licensing Information go to:</p>
 
         <p className="mt-6">
-          Copyright © {currentYear} Tonius Frank - The Mortgage Disrupters - All
-          Rights Reserved.
+          Copyright © {currentYear} Tonius Frank -  The Mortgage Disrupters - All Rights Reserved.
         </p>
       </div>
 

@@ -7,7 +7,7 @@ import Loan from "./components/Loan";
 import MortgageCalculator from "./components/MortgageCalculator";
 import MortgageLandingPage from "./components/MortgageLandingPage";
 import Refi from "./components/Refi";
-
+import Carousel from "./components/Carousel";
 export default function Home() {
   return (
    <>
@@ -17,7 +17,7 @@ export default function Home() {
    <Refi/>
    <CreditBuild/>
    <MortgageCalculator/>
-   
+   <Carousel/>
    {/* <Consider/> */}
    <CardStack/>
    <Loan/>
