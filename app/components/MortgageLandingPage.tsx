@@ -150,12 +150,12 @@ const MortgageLandingPage = () => {
                       className="text-black"
                     />
                   </a>
-                  {/* <a
-                    href="https://www.instagram.com/thecfmtg/e"
+                  <a
+                    href="https://www.instagram.com/themortgagewizard?igsh=MTZ0ZzZia2c1aTBrYg=="
                     className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"
                   >
                     <Icon src={icons.instagram} size={18} />
-                  </a> */}
+                  </a>
                   {/* <a
                     href="https://www.linkedin.com/company/cornerstone-first-mortgage/"
                     className="w-9 h-8 md:w-10 md:h-10 rounded-full border border-gray-300 flex items-center justify-center hover:bg-gray-100 transition"

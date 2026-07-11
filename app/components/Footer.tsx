@@ -101,11 +101,11 @@ export default function Footer() {
               //   alt: "LinkedIn",
               //   href: "https://www.linkedin.com/company/cornerstone-first-mortgage/",
               // },
-              // {
-              //   src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b8f_instagram-white.svg",
-              //   alt: "Instagram",
-              //   href: "https://www.instagram.com/thecfmtg/",
-              // },
+              {
+                src: "https://cdn.prod.website-files.com/65d509901b89bb3fd2a62af7/65d509901b89bb3fd2a62b8f_instagram-white.svg",
+                alt: "Instagram",
+                href: "https://www.instagram.com/themortgagewizard?igsh=MTZ0ZzZia2c1aTBrYg==",
+              },
             ].map(({ src, alt, href }) => (
               <Link
                 key={alt}

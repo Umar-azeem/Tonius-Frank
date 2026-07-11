@@ -11,20 +11,20 @@ const socialLinks = [
     id: "facebook",
     src: "https://api.iconify.design/uim:facebook-f.svg?color=%23006132",
     alt: "Facebook",
-    url: "https://www.facebook.com/",
+    url: "https://www.facebook.com/toniusfrankteam/#",
   },
   {
     id: "instagram",
     src: "https://api.iconify.design/uim:instagram.svg?color=%23006132",
     alt: "Instagram",
-    url: "https://www.instagram.com/",
+    url: "https://www.instagram.com/themortgagewizard?igsh=MTZ0ZzZia2c1aTBrYg==",
   },
-  {
-    id: "linkedin",
-    src: "https://api.iconify.design/uim:linkedin-alt.svg?color=%23006132",
-    alt: "LinkedIn",
-    url: "https://www.linkedin.com/",
-  },
+  // {
+  //   id: "linkedin",
+  //   src: "https://api.iconify.design/uim:linkedin-alt.svg?color=%23006132",
+  //   alt: "LinkedIn",
+  //   url: "https://www.linkedin.com/",
+  // },
 ];
 
 export default function Contact() {

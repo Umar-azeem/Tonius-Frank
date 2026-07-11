@@ -17,12 +17,12 @@ const Loan: React.FC = () => {
     alt: "Facebook",
     url: "https://www.facebook.com/toniusfrankteam/#",
   },
-  // {
-  //   id: "instagram",
-  //   src: "https://api.iconify.design/uim:instagram.svg?color=%23004D22",
-  //   alt: "Instagram",
-  //   url: "https://www.instagram.com/thecfmtg/",
-  // },
+  {
+    id: "instagram",
+    src: "https://api.iconify.design/uim:instagram.svg?color=%23004D22",
+    alt: "Instagram",
+    url: "https://www.instagram.com/themortgagewizard?igsh=MTZ0ZzZia2c1aTBrYg==",
+  },
   // {
   //   id: "linkedin",
   //   src: "https://api.iconify.design/uim:linkedin-alt.svg?color=%23004D22",
